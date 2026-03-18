@@ -1,0 +1,121 @@
+% !TEX program = xelatex
+\documentclass[aspectratio=169]{beamer}
+
+% Keynote theme (Version 1) — handles fontspec, xeCJK, Helvetica Neue, PingFang TC, unicode-math internally.
+% Do NOT load font packages here.
+\usetheme{keynote}
+
+% ---------------------------------------------------------------------------
+% Additional packages
+% ---------------------------------------------------------------------------
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{tikz}
+\usepackage{listings}
+
+% ---------------------------------------------------------------------------
+% Listings style (monochrome, framed)
+% ---------------------------------------------------------------------------
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=single,
+  framesep=4pt,
+  numbers=left,
+  numberstyle=\tiny,
+  numbersep=6pt,
+  xleftmargin=16pt,
+  tabsize=4,
+  showstringspaces=false,
+  keywordstyle=\bfseries,
+  commentstyle=\itshape,
+  stringstyle={},
+}
+
+% ---------------------------------------------------------------------------
+% Metadata — replace with actual values
+% ---------------------------------------------------------------------------
+\title{Presentation Title}
+\subtitle{Subtitle (optional)}
+\author{Author Name}
+\institute{Institute / Affiliation}
+\date{\today}
+
+% ---------------------------------------------------------------------------
+% Document
+% ---------------------------------------------------------------------------
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% ---- Section 1 -------------------------------------------------------------
+\section{Introduction}
+
+\begin{frame}{Motivation}
+  \begin{itemize}
+    \item First bullet point
+    \item Second bullet point
+    \item Third bullet point
+  \end{itemize}
+\end{frame}
+
+% ---- Section 2 -------------------------------------------------------------
+\section{Background}
+
+\begin{frame}{Key Concepts}
+  \begin{itemize}
+    \item Concept A
+    \item Concept B
+  \end{itemize}
+\end{frame}
+
+% ---- Section 3 -------------------------------------------------------------
+\section{Methods}
+
+\begin{frame}{Approach}
+  \begin{enumerate}
+    \item Step one
+    \item Step two
+    \item Step three
+  \end{enumerate}
+\end{frame}
+
+% ---- Section 4 -------------------------------------------------------------
+\section{Results}
+
+\begin{frame}{Findings}
+  % Example: two-column layout
+  \begin{columns}[T]
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item Result A
+        \item Result B
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      % figure or table goes here
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% ---- Section 5 -------------------------------------------------------------
+\section{Conclusion}
+
+\begin{frame}{Summary}
+  \begin{itemize}
+    \item Main takeaway 1
+    \item Main takeaway 2
+    \item Future work
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Thank You}
+  \centering
+  \large Questions?
+\end{frame}
+
+\end{document}

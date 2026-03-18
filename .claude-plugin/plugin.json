@@ -1,0 +1,4 @@
+{
+  "name": "slides-beamer",
+  "description": "Generate LaTeX Beamer presentations using the keynote theme. Two-phase workflow: discuss and save outline as markdown, then convert outline to compilable XeLaTeX .tex file."
+}
