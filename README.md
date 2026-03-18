@@ -1,6 +1,6 @@
 # slides-beamer
 
-A Claude Code plugin for generating LaTeX Beamer presentations using the **keynote theme**. Supports a two-phase workflow: discuss and save a structured outline, then convert the outline to a compilable XeLaTeX `.tex` file.
+A Claude Code plugin for generating LaTeX Beamer presentations using the [**keynote theme**](https://github.com/chenlu-hung/keynote-theme). Supports a two-phase workflow: discuss and save a structured outline, then convert the outline to a compilable XeLaTeX `.tex` file.
 
 ## Requirements
 
